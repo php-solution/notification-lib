@@ -20,6 +20,7 @@
     "autoload":     {
         "psr-4": { "PhpSolution\\Notification\\": "src/" }
     },
+    "prefer-stable": true,
     "minimum-stability": "dev",
     "extra": {
         "branch-alias": {
