@@ -20,9 +20,10 @@
     "autoload":     {
         "psr-4": { "PhpSolution\\Notification\\": "src/" }
     },
+    "minimum-stability": "dev",
     "extra": {
         "branch-alias": {
-            "dev-master": "dev"
+            "dev-master": "0.x-dev"
         }
     },
     "suggest": {
@@ -31,6 +32,5 @@
     },
     "scripts": {
         "test": "phpunit"
-    },
-    "minimum-stability": "dev"
+    }
 }
